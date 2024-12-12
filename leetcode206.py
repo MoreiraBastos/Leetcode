@@ -9,7 +9,7 @@ class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         vetor=[]
         nova_lista=ListNode(0)
-        p_nova_lista=dummy
+        p_nova_lista=nova_lista
         while head:
             vetor.append(head.val)
             head=head.next
